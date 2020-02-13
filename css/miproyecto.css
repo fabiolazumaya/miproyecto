@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
+body{
+    font-family: 'releway' sans-serif;
+}
+header{
+    display: flex;
+    background-color:#FFCC99;
+    justify-content: flex-end; 
+}
+header nav ul li{
+
+    display: inline-flex;
+    margin: 5px;
+}
+header nav ul li a{
+    color: black;
+}
