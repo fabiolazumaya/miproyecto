@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap');
 body{
-    font-family: 'releway' sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../img/background-9120.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
 }
 header{
     display: flex;
@@ -8,10 +12,35 @@ header{
     justify-content: flex-end; 
 }
 header nav ul li{
-
     display: inline-flex;
     margin: 5px;
 }
 header nav ul li a{
     color: black;
 }
+.sprite{
+    background-image: url("https://cdn2.cocinadelirante.com/sites/all/themes/delirante/images/sprite.png");
+    background-repeat: no-repeat;
+    zoom: 1;
+    display: inline-block;
+}
+.btn-fb-color{
+    width: 34px;
+    height: 34px;
+    background-position:-7px -649px;
+}
+.btn-tw-color{
+    background-position:-47px -649px;
+	width: 34px;
+    height: 34px;
+}
+.btn-instagram-color{
+    background-position:-128px -649px;
+	width: 34px;
+	height: 34px;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    bottom: 0px;
+    }
