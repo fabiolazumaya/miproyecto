@@ -6,6 +6,10 @@ body{
     background-position: 0px 0px;
     background-size: cover;
 }
+h1{
+    text-align: center;
+    
+}
 header{
     display: flex;
     background-color:#FFCC99;
